@@ -3,15 +3,40 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
 
+.header-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right a {   /*a means apply only to links */
+    color: white;
+    text-decoration: none; /* no underscore*/
+    margin-left: 15px; 
+}
 .header, .footer {
     background-color: #FFC704;
     color: black;
-    padding: 20px;
 }
 
 .footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
 }
