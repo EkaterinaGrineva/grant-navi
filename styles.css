@@ -7,7 +7,7 @@ body {
  width: 100%
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 15px; 
 }
 
 .header-left {
@@ -33,12 +33,9 @@ body {
 }
 
 .footer {
- width: 100%
- padding: 15px;
- position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+width: 100%
+position: fixed;
+bottom: -15;
 }
 
 
