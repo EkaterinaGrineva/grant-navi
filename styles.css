@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 .header {
-  display: flex;
+ width: 100%
   justify-content: space-between;
   align-items: center;
   padding: 15px;
@@ -33,9 +33,9 @@ body {
 }
 
 .footer {
- position: fixed;
- bottom: 0;
- display: flex;
+ width: 100%
+ bottom: 15;
+ padding: 15px;
 }
 
 
