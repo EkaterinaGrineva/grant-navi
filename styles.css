@@ -15,9 +15,9 @@ body {
     font-weight: bold;
 }
 
-.header-right a {   /*a means apply only to links */
+.header-right a { 
     color: white;
-    text-decoration: none; /* no underscore*/
+    text-decoration: none; 
     margin-left: 15px; 
 }
 .header, .footer {
