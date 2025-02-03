@@ -34,6 +34,7 @@ body {
 }
 
 .footer {
+display: flex;
  position: fixed;
  padding: 15px;
  bottom: 0;
@@ -41,7 +42,7 @@ body {
 
 
 .content {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ddd;
