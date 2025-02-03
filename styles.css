@@ -33,9 +33,9 @@ body {
 }
 
 .footer {
-
-width: 100%;
-padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 
