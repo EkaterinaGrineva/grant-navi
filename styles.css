@@ -36,6 +36,7 @@ body {
  position: fixed;
  padding: 15px;
  bottom: 0;
+ display: flex;
 }
 
 
